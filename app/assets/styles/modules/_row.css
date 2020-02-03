@@ -25,6 +25,11 @@
       width: 37%;
     }
   
+    &__medium-6 {
+      float:left;
+      width: 50%;
+    }
+
     &__medium-8 {
       float: left;
       width: 66.66%;
@@ -40,6 +45,14 @@
         padding-right: 0;
       }
     }
+
+    &--gutters-large > div {
+      padding-right: 65px;
+      &:last-child{
+        padding-right: 0;
+      }
+    }
+
   }
 
   

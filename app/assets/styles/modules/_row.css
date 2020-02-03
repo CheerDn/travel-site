@@ -2,9 +2,24 @@
 
   @mixin clearfix;
 
-  /*&--gutters {
+  &--gutters {
     margin-right: -65px;
-  }*/
+  }
+
+  &--gutters > div {
+    padding-right: 65px;
+  }
+
+
+  &--gutters-large {
+    margin-right: -100px;
+  }
+
+  &--gutters-large > div {
+    padding-right: 100px;
+  }
+
+
 
   &__b-margin-until-medium {
     margin-bottom: 1rem;
@@ -38,7 +53,7 @@
     &__medium-8-smaller {
       width: 63%;
     }
-  
+    /*
     &--gutters > div {
       padding-right: 65px;
       &:last-child{
@@ -47,11 +62,12 @@
     }
 
     &--gutters-large > div {
-      padding-right: 65px;
+      padding-right: 300px;
       &:last-child{
         padding-right: 0;
       }
     }
+    */
 
   }
 

@@ -66,6 +66,7 @@
       background-color: #fff;
       transition: all .3s ease-out;
       transform-origin: 0 50%;
+      opacity: 1;
     }
 
     &::after {
@@ -110,18 +111,18 @@
     z-index: -10;
     padding-top: 90px;
     text-align: center;
-    @mixin atMedium {
+    /*@mixin atMedium {
       opacity: 1;
       z-index: 1;
       padding-top: 0;
       transform: scale(1.0);
     }
-
     &--is-visible {
       opacity: 1;
       z-index: 1;
       transform: scale(1.0);
+    }*/
 
-    }
   }
+
 }

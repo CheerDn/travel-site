@@ -4,7 +4,8 @@
   width: 100%;
   z-index: 2;
   transition: background-color 0.3s ease-out;
-  
+
+
   &--is-expanded {
     background-color: rgba($mainBlue, 0.55);
   }

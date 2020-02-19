@@ -30,7 +30,7 @@ module.exports = {
 				use: [
 				'style-loader',
 				'css-loader?url=false', 
-				{loader: 'postcss-loader', options: {plugins: postCSSPlugins	}	}
+				{loader: 'postcss-loader', options: {plugins: postCSSPlugins}	}
 				]
 			}
 		]

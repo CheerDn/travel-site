@@ -17,7 +17,7 @@ document.querySelectorAll(".open-modal").forEach(el => {
       import('./modules/Modal').then(x => {
         modal = new x.default()
         setTimeout(() => modal.openTheModal(), 20)
-      }).catch(() => console.log("There was a problem."))
+      }).catch(() => console.log("Loading js file of modal failed."))
     } else {
       modal.openTheModal()
     }

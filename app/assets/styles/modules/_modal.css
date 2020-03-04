@@ -1,21 +1,21 @@
 .modal {
+  background-color: rgba(255,255,255, .94);
+  bottom: 0;
+  display: flex;
+  left: 0;
   opacity: 0;
-  visibility: hidden;
+  position: fixed;
+  right: 0;
+  top: 0;
   transform: scale(1.2);
   transition: all .3s ease-out;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(255,255,255, .94);
+  visibility: hidden;
   z-index: 5;
-  display: flex;
   
   &--is-visible {
     opacity: 1;
-    visibility: visible;
     transform: scale(1);
+    visibility: visible;
   }
 
   &__inner {
@@ -31,14 +31,14 @@
   }
 
   &__close {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    font-size: 2rem;
     color: $mainBlue;
-    transform:scaleX(1.2);
-    transform-origin: 100% 0;
     cursor: pointer;
+    font-size: 2rem;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    transform-origin: 100% 0;
+    transform:scaleX(1.2);
 
     &:hover {
       color: $mainOrange;

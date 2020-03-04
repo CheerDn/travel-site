@@ -31,10 +31,6 @@
     padding-right: 100px;
   }
 
-
-
-
-
   &__b-margin-until-medium {
     margin-bottom: 1rem;
   }
@@ -67,21 +63,7 @@
     &__medium-8-smaller {
       width: 63%;
     }
-    /*
-    &--gutters > div {
-      padding-right: 65px;
-      &:last-child{
-        padding-right: 0;
-      }
-    }
 
-    &--gutters-large > div {
-      padding-right: 300px;
-      &:last-child{
-        padding-right: 0;
-      }
-    }
-    */
   }
 
   @mixin atLarge {
@@ -112,21 +94,6 @@
     &__large-8-smaller {
       width: 63%;
     }
-    /*
-    &--gutters > div {
-      padding-right: 65px;
-      &:last-child{
-        padding-right: 0;
-      }
-    }
-
-    &--gutters-large > div {
-      padding-right: 300px;
-      &:last-child{
-        padding-right: 0;
-      }
-    }
-    */
   }
 
 

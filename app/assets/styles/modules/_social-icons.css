@@ -3,10 +3,10 @@
   &__icon {
     background-color: $mainOrange;
     display: inline-block;
-    width: 33%;
     height: 72px;
     margin: 0px 5px 5px 5px;
     position: relative;
+    width: 33%;
 
     @mixin atSmall {
       width: 72px;

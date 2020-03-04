@@ -14,13 +14,13 @@
 
   &__photo {
     border-radius: 80px;
-    overflow: hidden;
-    width: 160px;
+    border: 6px solid rgba(255, 255, 255, 0.8);
     height: 160px;
     margin: 0 auto -80px auto;
+    overflow: hidden;
     position: relative;
     top: -80px;
-    border: 6px solid rgba(255, 255, 255, 0.8)
+    width: 160px;
   }
 
   &__title {

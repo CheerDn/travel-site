@@ -49,4 +49,4 @@ class Modal {
     `)
   }
 }
-export default Modal
+export default Modal;
